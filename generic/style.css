@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  /* color: white; */
+}
+/* .action-btn{
+    background-color:#2a9d8f ;
+} */
+
+.action-btn a {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 800;
+  /* z-index: 10; */
+}
+.action-btn a:hover {
+  background-color: #106258;
+  transition: all 0.5s ease-out;
+}
+
+ul a {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+ul a:hover {
+  color: rgba(255, 255, 255, 0.793);
+  transition: all 0.4s ease-in;
+}
+
+.container {
+  max-width: 1952px;
+  height: 800px;
+  background-color: #ecf4f3;
+  margin: 0 auto;
+  border: 2px solid #2a9d8f00;
+}
+.header-mwrp {
+  background-image: url(./img/hbg.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-mwrp::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0f0d0dcf;
+  position: absolute;
+  z-index: 1;
+}
+
+.header-div {
+  /* background-color: gray; */
+  height: 99px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+}
+.logo {
+  color: white;
+  font-size: 25px;
+  line-height: 30px;
+  transform: translateX(80px);
+}
+.main-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+  gap: 35px;
+}
+
+.action-transform {
+  transform: translateX(-80px);
+}
+
+.header-div action-btn {
+  transform: translateX(-100px);
+}
+
+.header-down-content h2 {
+  color: white;
+  font-size: 30px;
+  height: 27px;
+  z-index: 5;
+}
+.header-down-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 80px;
+  position: relative;
+  z-index: 5;
+}
+
+.main-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 56px;
+  line-height: 67.2px;
+  text-align: center;
+  line-height: normal;
+  margin: 0px 400px;
+  margin-bottom: 20px;
+  color: white;
+  z-index: 5;
+}
+
+/* this is next header section */
+
+.upper {
+  position: relative;
+  height: 530px;
+}
+.about {
+  width: 1200px;
+  height: 626px;
+  /* margin-left: 100px; */
+  margin: 0 374px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -100px;
+  background-color: white;
+  z-index: 5;
+}
+
+.aboutus-content {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 90px;
+  text-align: left;
+  gap: 30px;
+}
+.aboutus-content h3 {
+  color: #2a9d8f;
+}
+
+/* here is start of middle 1 section */
+
+.middle-1 {
+  height: 608px;
+}
+.core-value-wrapper {
+  width: 1200px;
+  height: 608px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.core-value-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 110px;
+}
+
+.core-value-point-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 110px;
+}
+
+.core-value-info h3 {
+  font-size: 16px;
+  line-height: 16px;
+  color: #2a9d8f;
+}
+
+.core-value-point-box h3 {
+  color: #1c8f81bf;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.core-value-info h2 {
+  width: 957px;
+  height: 96px;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.core-value-point-box {
+  margin-left: 40px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.core-value-point-box p {
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.66);
+}
+.core-value-point-box h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.core-value-info h3 {
+  font-size: 21px;
+  line-height: 35px;
+  margin-bottom: 11px;
+  color: #2a9d8f;
+}
+
+/* THIS IS middle 2 start */
+
+.middle-2 {
+  height: 399px;
+  background-image: url(./img/cta.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.middle-2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #0f0d0dd4;
+  position: absolute;
+  z-index: 1;
+}
+
+.middle-Prefix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin: 92px 0;
+  position: relative;
+  z-index: 5;
+}
+
+.middle-Prefix h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  line-height: 35px;
+  height: 96px;
+  width: 999px;
+  text-align: center;
+  color: white;
+}
+
+.middle-Prefix h3 {
+  font-size: 25px;
+  line-height: 39px;
+  color: white;
+}
+
+/* Here is middle 2 div end */
+
+/* here is middle 3 div start */
+
+.middle-3 {
+  height: 643px;
+  background-color: white;
+}
+
+.Unique-Value {
+  width: 1200px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 150px;
+  margin: 110px auto;
+}
+
+.unique-value-info {
+  width: 450px;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+
+.unique-value-info h3 {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: #2a9d8f;
+}
+.unique-value-info h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  width: 405px;
+  text-align: justify;
+}
+
+.unique-value-info p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.unique-preposition {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.preposition {
+  border-bottom: 2px solid #00000038;
+  padding-bottom: 30px;
+}
+.preposition h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  line-height: 30.48px;
+}
+
+.preposition p {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+/* here testimonial section start */
+
+.testimonial-wrapper {
+  height: 600px;
+}
+
+.ttm-info img {
+  width: 30px;
+  height: 30px;
+  background-color: #1c8f81;
+}
+
+.ttm-info {
+  height: 305px;
+  width: 375px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+}
+.ttm-info p {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.ttm-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.testimonial {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ttm {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.testimonial h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  line-height: 30.48px;
+}
+
+.before-footer {
+  height: 491px;
+  background-image: url(./img/final-cta.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.before-footer::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #0f0d0dc9;
+  position: absolute;
+  z-index: 1;
+}
+
+.footer-prefix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin: 92px 0;
+  position: relative;
+  z-index: 5;
+}
+
+.footer-prefix h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  line-height: 35px;
+  height: 96px;
+  width: 900px;
+  text-align: center;
+  color: white;
+}
+
+.footer-prefix h3 {
+  font-size: 25px;
+  line-height: 39px;
+  color: white;
+  margin-top: 75px;
+}
+
+.footer-prefix action-btn {
+  margin-bottom: 130px;
+}
+
+/* this is footer css */
+
+.footer-div {
+  height: 60px;
+}
+
+.footer-div h3 {
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}

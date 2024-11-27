@@ -1,0 +1,23 @@
+.Senior {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apply {
+  display: flex;
+  align-items: center;
+}
+
+.apply-day {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>New Customer Registration Form</h2><br>
+    
+
+   <fieldset><legend>Customer Details</legend>
+    <form action="">
+        <label for="fname">Fulll Name: </label> <span style="color: red;">**</span>
+        <input type="text" name="fname" id="fname" placeholder="Jhon Doe" required><br><br>
+    
+        <label for="address">Address:</label><span style="color: red;">**</span>
+        <input type="text" name="address" id="address" required><br><br>
+    
+    
+        <label for="street">Street Address:</label>
+        <input type="text" name="street" id="street"><br><br>
+    
+        <label for="line">Street Address Line 2</label>
+        <input type="text" name="line" id="line"><br><br>
+    
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+        <br><br>
+    
+        <label for="state">State</label>
+        <input type="text" name="state" id="state"><br><br>
+    
+        <label for="phone">Phone Number:</label><span style="color: red;">*</span>
+        <input type="tel" name="phone" id="phone" placeholder="(000) 000-0000" required><br><br>
+    
+        <label for="email">Email</label><span style="color: red;">*</span>
+        <input type="email" name="email" id="email" placeholder="email@domain.com" required>
+    
+    <br><br>
+    
+    <!-- Here is i use option form element -->
+    
+    
+        <label for="hay">How Did You Hear About US</label>
+        <select name="hay" id="hay">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="friends">Friends</option>
+                <option value="youtube">Youtube</option>
+                <option value="others">Others</option>
+    
+        </select><br><br>
+    
+        <!--Here i use textarea Type  -->
+    
+        <label for="fau">Feadback About Us:</label><br>
+        <textarea name="fau" id="fau" cols="40" rows="10">Type Your Faadback Here, Please</textarea>
+        <br><br>
+    
+        <label for="suggest">Suggestion If Any further Improvmet</label><br>
+        <textarea name="suggest" id="suggest" cols="40" rows="10"></textarea><br><br>
+    
+        <!-- Here i use Radio type -->
+    
+        <label for="recommend">WIll you be willing to Recommend Us?</label><br>
+        
+        <input type="radio" name="recommend" id="">
+        <label for="yes">Yes</label><br>
+    
+        <input type="radio" name="recommend" id="no">
+        <label for="no">NO</label><br>
+    
+        <input type="radio" name="recommend" id="maybe">
+        <label for="maybe">Maybe</label><br><br>
+    
+        
+        <input type="submit" name="submit" id="submit" value="Submit">
+
+
+    </form>
+
+    
+
+
+
+</fieldset>
+
+
+
+</body>
+</html>

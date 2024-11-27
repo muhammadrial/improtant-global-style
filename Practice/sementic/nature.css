@@ -1,0 +1,34 @@
+.header{
+    color: #374e0b;
+    text-align: center;
+    font-size: 50px;
+}
+
+.About{
+    width: 500px;
+    background-color: #e9f2df;
+    color: #395e17;
+    margin: auto;
+    padding: 30px;
+}
+
+.nature{
+    padding: none;
+    padding-top: 5px;
+}
+
+.tree-image{
+    width: 100%;
+}
+
+.about-pgh span{
+    color: #c616cc;
+    font-weight: bold;
+}
+
+.about-readmore{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #599126;
+    color: aliceblue;
+}

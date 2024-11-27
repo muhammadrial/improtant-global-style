@@ -1,0 +1,84 @@
+/* This is Golobal styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --primary-color: hsl(256, 26%, 20%);
+  --Secondary-color: hsl(216, 30%, 68%);
+  --Very-Dark: hsl(270, 9%, 17%);
+  --Dark-Grayish: hsl(273, 4%, 51%);
+  --Very-Light: hsl(0, 0%, 98%);
+
+  --heading-font: "DM Serif Display", serif;
+  --body-font: "Karla", serif;
+
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: var(--heading-font);
+  color: var(--Very-Light);
+  font-weight: 700;
+  line-height: 6rem;
+}
+
+h2 {
+  font-size: 5rem;
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
+
+.btn {
+  padding: 1rem 1rem;
+  border: 0.3rem solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* End of global styling */
+
+/* Using before and after element */
+
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: var(--primary-color);
+  position: relative;
+  margin-top: 15rem;
+  height: 25rem;
+}
+
+.work:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-image: url(img/images/bg-pattern-how-we-work-desktop.svg);
+}
+
+/* Using before and after end */
